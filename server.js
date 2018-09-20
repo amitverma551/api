@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var index = require('./routes/index');
 var videos = require('./routes/videos');
 
-var port = 3000;
+var port = 8080;
 var app = express();
 
 app.set('views', __dirname + '/views');
